@@ -1,6 +1,8 @@
 function removeDups(arrayItems) {
-    //Implementación
-    return 0;
+	//Implementación
+	return [
+		...new Set(arrayItems)
+	];
 }
 
 module.exports = removeDups;
